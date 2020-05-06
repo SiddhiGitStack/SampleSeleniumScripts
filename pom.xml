@@ -15,163 +15,142 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-       <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-<dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>3.141.59</version>
-</dependency>
-    
-    
-    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
-<dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-server</artifactId>
-    <version>3.141.59</version>
-</dependency>
-    
-    
-    <!-- https://mvnrepository.com/artifact/com.sun.jersey.contribs/jersey-apache-client -->
-<dependency>
-    <groupId>com.sun.jersey.contribs</groupId>
-    <artifactId>jersey-apache-client</artifactId>
-    <version>1.19.4</version>
-</dependency>
-    
-    
-    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider -->
-<dependency>
-    <groupId>com.fasterxml.jackson.jaxrs</groupId>
-    <artifactId>jackson-jaxrs-json-provider</artifactId>
-    <version>2.11.0</version>
-</dependency>
-    
-    
-    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-<dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.1.0</version>
-    <scope>test</scope>
-</dependency>
-    
-    
-    <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
-<dependency>
-    <groupId>io.appium</groupId>
-    <artifactId>java-client</artifactId>
-    <version>7.3.0</version>
-</dependency>
-    
-    
-    <!-- https://mvnrepository.com/artifact/com.saucelabs/sauce_testng -->
-<dependency>
-    <groupId>com.saucelabs</groupId>
-    <artifactId>sauce_testng</artifactId>
-    <version>2.1.25</version>
-</dependency>
-    
-    
-    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-<dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.20</version>
-</dependency>
-    
-    
-    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
-<dependency>
-    <groupId>log4j</groupId>
-    <artifactId>log4j</artifactId>
-    <version>1.2.17</version>
-</dependency>
-    
-    
-    <!-- https://mvnrepository.com/artifact/javax.activation/activation -->
-<dependency>
-    <groupId>javax.activation</groupId>
-    <artifactId>activation</artifactId>
-    <version>1.1.1</version>
-</dependency>
-    
-  <!-- https://mvnrepository.com/artifact/com.jayway.restassured/rest-assured -->
-<dependency>
-    <groupId>com.jayway.restassured</groupId>
-    <artifactId>rest-assured</artifactId>
-    <version>2.9.0</version>
-    <scope>test</scope>
-</dependency>
+   <dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/com.github.fge/json-schema-validator -->
-<dependency>
-    <groupId>com.github.fge</groupId>
-    <artifactId>json-schema-validator</artifactId>
-    <version>2.2.6</version>
-</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.13.0</version>
+		</dependency>
 
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>3.13.0</version>
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/net.jcip/jcip-annotations -->
-<dependency>
-    <groupId>net.jcip</groupId>
-    <artifactId>jcip-annotations</artifactId>
-    <version>1.0</version>
-</dependency>
+		<dependency>
+			<groupId>org.testobject</groupId>
+			<artifactId>testobject-appium-java-api</artifactId>
+			<version>0.2.7</version>
+		</dependency>
 
+		<dependency>
+			<groupId>com.sun.jersey.contribs</groupId>
+			<artifactId>jersey-apache-client</artifactId>
+			<version>1.8</version>
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/com.github.spotbugs/spotbugs-annotations -->
-<dependency>
-    <groupId>com.github.spotbugs</groupId>
-    <artifactId>spotbugs-annotations</artifactId>
-    <version>4.0.2</version>
-    <scope>provided</scope>
-</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.jaxrs</groupId>
+			<artifactId>jackson-jaxrs-json-provider</artifactId>
+			<version>2.4.2</version>
+		</dependency>
 
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.3</version>
+			<scope>compile</scope>
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
-<dependency>
-    <groupId>com.relevantcodes</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>2.41.2</version>
-</dependency>
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>6.1.0</version>
+		</dependency>
 
+		<dependency>
+			<groupId>com.saucelabs</groupId>
+			<artifactId>sauce_testng</artifactId>
+			<version>2.1.23</version>
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
-<dependency>
-    <groupId>javax</groupId>
-    <artifactId>javaee-api</artifactId>
-    <version>8.0.1</version>
-    <scope>provided</scope>
-</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.33</version>
+		</dependency>
 
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/net.lingala.zip4j/zip4j -->
-<dependency>
-    <groupId>net.lingala.zip4j</groupId>
-    <artifactId>zip4j</artifactId>
-    <version>2.5.2</version>
-</dependency>
+		<dependency>
+			<groupId>javax.activation</groupId>
+			<artifactId>activation</artifactId>
+			<version>1.1.1</version>
+		</dependency>
 
+		<dependency>
+			<groupId>com.jayway.restassured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>1.8.1</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.fasterxml.jackson.core</groupId>
+					<artifactId>jackson-databind</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
-<dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi-ooxml</artifactId>
-    <version>4.1.2</version>
-</dependency>
+		<dependency>
+			<groupId>com.github.fge</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>2.0.1</version>
+			<!-- <exclusions> <exclusion> <groupId>com.fasterxml.jackson.core</groupId> 
+				<artifactId>jackson-databind</artifactId> </exclusion> </exclusions> -->
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
-<dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi-ooxml-schemas</artifactId>
-    <version>4.1.2</version>
-</dependency>
+		<dependency>
+			<groupId>net.jcip</groupId>
+			<artifactId>jcip-annotations</artifactId>
+			<version>1.0</version>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>com.github.spotbugs</groupId>
+			<artifactId>spotbugs-annotations</artifactId>
+			<version>3.1.3</version>
+			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>6.0</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>net.lingala.zip4j</groupId>
+			<artifactId>zip4j</artifactId>
+			<version>2.2.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>ooxml-schemas</artifactId>
+			<version>1.4</version>
+		</dependency>
 
     
   </dependencies>

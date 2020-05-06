@@ -14,6 +14,11 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- maven-surefire-plugin-version properties -->
 		<maven-surefire-plugin-version>2.20</maven-surefire-plugin-version>
+		<!-- web tools Projectsetup properties -->
+		<wtp.version>2.0</wtp.version>
+
+		<!-- java and j2ee dependencies jars and versions -->
+		<java-version>1.8</java-version>
   </properties>
 
   <dependencies>

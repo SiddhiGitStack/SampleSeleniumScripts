@@ -12,7 +12,7 @@ import com.practice.common.BaseTest;
 
 public class DesktopGoogleSearch extends BaseTest {
 	
-	@Test
+	@Test(testName="googleSearchDT")
 	public void googleSearchDT() throws InterruptedException
 	{
 		

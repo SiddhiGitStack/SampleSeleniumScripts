@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 import com.practice.common.BasePO;
 import com.practice.common.BaseTest;
 
+@Test(groups = { "DesktopWeb" })
 public class DesktopGoogleSearch extends BaseTest {
 	
 	@Test(testName="googleSearchDT")
